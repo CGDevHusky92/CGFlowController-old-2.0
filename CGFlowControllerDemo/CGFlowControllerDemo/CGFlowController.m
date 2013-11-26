@@ -9,7 +9,8 @@
 #import "CGFlowController.h"
 
 #define SLIDE_TIMING                .25     /* Good Slide Value */
-#define ACCELERATED_SWIPE_RATIO     .008    /* 0 will kill any added acceleration I wouldn't recommend no more then .01 */
+#define ACCELERATED_SWIPE_RATIO_X   .008    /* swipe acceleration in the x dir 0 is no acceleration I wouldn't recommend more then .01 */
+#define ACCELERATED_SWIPE_RATIO_Y   .012    /* swipe acceleration in the y dir 0 is no acceleration I wouldn't recommend more then .014 */
 #define PER_COMPLETE_SLIDE_X        .7      /* Percentage you need to swipe and then let go for it to complete in x direction */
 #define PER_COMPLETE_SLIDE_Y        .5      /* Percentage you need to swipe and then let go for it to complete in x direction */
 
@@ -19,20 +20,20 @@
 @property (nonatomic, strong) CGPanelView *rightController;
 @property (nonatomic, strong) CGPanelView *topController;
 @property (nonatomic, strong) CGPanelView *bottomController;
+@property (nonatomic, strong) NSMutableDictionary *viewCollection;
+@property (nonatomic, strong) NSMutableDictionary *liveCollection;
+@property (nonatomic, strong) NSNumber *xCoordinate;
+@property (nonatomic, strong) NSNumber *yCoordinate;
 @property (nonatomic, strong) NSString *nibIdentifier;
-@property (nonatomic, assign) BOOL started;
+@property (nonatomic, assign) CGPoint preVelocity;
+@property (nonatomic, assign) int velocityCheck;
 @property (nonatomic, assign) BOOL showingLeftPanel;
 @property (nonatomic, assign) BOOL showingRightPanel;
 @property (nonatomic, assign) BOOL showingTopPanel;
 @property (nonatomic, assign) BOOL showingBottomPanel;
 @property (nonatomic, assign) BOOL showPanelX;
 @property (nonatomic, assign) BOOL showPanelY;
-@property (nonatomic, assign) int velocityCheck;
-@property (nonatomic, assign) CGPoint preVelocity;
-@property (nonatomic, strong) NSMutableDictionary *viewCollection;
-@property (nonatomic, strong) NSMutableDictionary *liveCollection;
-@property (nonatomic, strong) NSNumber *xCoordinate;
-@property (nonatomic, strong) NSNumber *yCoordinate;
+@property (nonatomic, assign) BOOL started;
 -(void)setStartViewWithCoord:(int)theX andY:(int)theY;
 @end
 
@@ -53,12 +54,12 @@
     self = [super init];
     if (self) {
         // Custom initialization
-        _xMovement = true;
-        _yMovement = true;
-        _xWrapAround = false;
-        _yWrapAround = false;
         _viewCollection = [[NSMutableDictionary alloc] init];
         _liveCollection = [[NSMutableDictionary alloc] init];
+        _xWrapAround = false;
+        _yWrapAround = false;
+        _xMovement = true;
+        _yMovement = true;
         _forceFinish = false;
     }
     return self;
@@ -741,15 +742,15 @@
                 
                 if (_leftController != nil && _rightController != nil) {
                     // allow dragging only in x coordinates by only updating the x coordinate with translation position
-                    if (!((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) > (self.view.frame.size.width / 2) || (_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) < (self.view.frame.size.width / 2))) {
-                        _leftController.view.center = CGPointMake(_leftController.view.center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO), _leftController.view.center.y);
-                        [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO), [sender view].center.y);
-                        _rightController.view.center = CGPointMake(_rightController.view.center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO), _rightController.view.center.y);
-                    } else if ((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) > (self.view.frame.size.width / 2)) {
+                    if (!((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) > (self.view.frame.size.width / 2) || (_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) < (self.view.frame.size.width / 2))) {
+                        _leftController.view.center = CGPointMake(_leftController.view.center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO_X), _leftController.view.center.y);
+                        [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO_X), [sender view].center.y);
+                        _rightController.view.center = CGPointMake(_rightController.view.center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO_X), _rightController.view.center.y);
+                    } else if ((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) > (self.view.frame.size.width / 2)) {
                         _leftController.view.center = CGPointMake((self.view.frame.size.width / 2), _leftController.view.center.y);
                         [sender view].center = CGPointMake((self.view.frame.size.width + (self.view.frame.size.width / 2)), [sender view].center.y);
                         _rightController.view.center = CGPointMake(((2 * self.view.frame.size.width) + (self.view.frame.size.width / 2)), _rightController.view.center.y);
-                    } else if ((_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) < (self.view.frame.size.width / 2)) {
+                    } else if ((_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) < (self.view.frame.size.width / 2)) {
                         _leftController.view.center = CGPointMake(-(self.view.frame.size.width + (self.view.frame.size.width / 2)), _leftController.view.center.y);
                         [sender view].center = CGPointMake(-(self.view.frame.size.width / 2), [sender view].center.y);
                         _rightController.view.center = CGPointMake((self.view.frame.size.width / 2), _rightController.view.center.y);
@@ -757,12 +758,12 @@
                 } else if (_leftController == nil && _rightController == nil) { } else if (_leftController == nil) {
                     // allow dragging only in x coordinates by only updating the x coordinate with translation position
                     if ((([sender view].center.x <= (self.view.frame.size.width / 2)) && velocity.x < 0) || (([sender view].center.x < (self.view.frame.size.width / 2)) && velocity.x > 0)) {
-                        if ((_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) <= self.view.center.x) {
+                        if ((_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) <= self.view.center.x) {
                             _rightController.view.center = CGPointMake(self.view.center.x, _rightController.view.center.y);
                             [sender view].center = CGPointMake((self.view.center.x - self.view.frame.size.width), [sender view].center.y);
                         } else {
-                            [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO), [sender view].center.y);
-                            _rightController.view.center = CGPointMake(_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO), _rightController.view.center.y);
+                            [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X), [sender view].center.y);
+                            _rightController.view.center = CGPointMake(_rightController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X), _rightController.view.center.y);
                         }
                     } else {
                         [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y);
@@ -770,12 +771,12 @@
                     }
                 } else if (_rightController == nil) {
                     if (([sender view].center.x >= (self.view.frame.size.width / 2) && velocity.x > 0) || ([sender view].center.x > (self.view.frame.size.width / 2) && velocity.x < 0)) {
-                        if ((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO)) >= self.view.center.x) {
+                        if ((_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X)) >= self.view.center.x) {
                             _leftController.view.center = CGPointMake(self.view.center.x, _leftController.view.center.y);
                             [sender view].center = CGPointMake((self.view.center.x + self.view.frame.size.width), [sender view].center.y);
                         } else {
-                            _leftController.view.center = CGPointMake(_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO), _leftController.view.center.y);
-                            [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO), [sender view].center.y);
+                            _leftController.view.center = CGPointMake(_leftController.view.center.x + translatedPoint.x + ((double)velocity.x * ACCELERATED_SWIPE_RATIO_X), _leftController.view.center.y);
+                            [sender view].center = CGPointMake([sender view].center.x + translatedPoint.x + (((double)velocity.x) * ACCELERATED_SWIPE_RATIO_X), [sender view].center.y);
                         }
                     } else {
                         _leftController.view.center = CGPointMake(_leftController.view.center.x, _leftController.view.center.y);
@@ -791,15 +792,15 @@
                 
                 if (_bottomController != nil && _topController != nil) {
                     // allow dragging only in x coordinates by only updating the x coordinate with translation position
-                    if (!((_bottomController.view.center.y + translatedPoint.y + ((double)velocity.y) * ACCELERATED_SWIPE_RATIO) < (self.view.frame.size.height / 2) || (_topController.view.center.y + translatedPoint.y + ((double)velocity.y) * ACCELERATED_SWIPE_RATIO) > (self.view.frame.size.height / 2))) {
-                        _bottomController.view.center = CGPointMake(_bottomController.view.center.x, _bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
-                        [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
-                        _topController.view.center = CGPointMake(_topController.view.center.x, _topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
-                    } else if ((_bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO)) < (self.view.frame.size.height / 2)) {
+                    if (!((_bottomController.view.center.y + translatedPoint.y + ((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y) < (self.view.frame.size.height / 2) || (_topController.view.center.y + translatedPoint.y + ((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y) > (self.view.frame.size.height / 2))) {
+                        _bottomController.view.center = CGPointMake(_bottomController.view.center.x, _bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
+                        [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
+                        _topController.view.center = CGPointMake(_topController.view.center.x, _topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
+                    } else if ((_bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y)) < (self.view.frame.size.height / 2)) {
                         _bottomController.view.center = CGPointMake(_bottomController.view.center.x, (self.view.frame.size.height / 2));
                         [sender view].center = CGPointMake([sender view].center.x, -(self.view.frame.size.height / 2));
                         _topController.view.center = CGPointMake(_topController.view.center.x, -(self.view.frame.size.height + (self.view.frame.size.height / 2)));
-                    } else if ((_topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO)) > (self.view.frame.size.height / 2)) {
+                    } else if ((_topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y)) > (self.view.frame.size.height / 2)) {
                         _bottomController.view.center = CGPointMake(_bottomController.view.center.x, ((2 * self.view.frame.size.height) + (self.view.frame.size.height / 2)));
                         [sender view].center = CGPointMake([sender view].center.x, (self.view.frame.size.height + (self.view.frame.size.height / 2)));
                         _topController.view.center = CGPointMake(_topController.view.center.x, (self.view.frame.size.height / 2));
@@ -810,12 +811,12 @@
                         [sender view].center = CGPointMake([sender view].center.x, (self.view.frame.size.height / 2));
                         _topController.view.center = CGPointMake(_topController.view.center.x, -(self.view.frame.size.height / 2));
                     } else {
-                        if ((_topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO)) >= self.view.center.y) {
+                        if ((_topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y)) >= self.view.center.y) {
                             [sender view].center = CGPointMake([sender view].center.x, (self.view.center.y + self.view.frame.size.height));
                             _topController.view.center = CGPointMake(_topController.view.center.x, self.view.center.y);
                         } else {
-                            [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
-                            _topController.view.center = CGPointMake(_topController.view.center.x, _topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
+                            [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
+                            _topController.view.center = CGPointMake(_topController.view.center.x, _topController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
                         }
                     }
                 } else if (_topController == nil) {
@@ -823,12 +824,12 @@
                         _bottomController.view.center = CGPointMake(_bottomController.view.center.x, (self.view.frame.size.height + (self.view.frame.size.height / 2)));
                         [sender view].center = CGPointMake([sender view].center.x, (self.view.frame.size.height / 2));
                     } else {
-                        if ((_bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO)) <= self.view.center.y) {
+                        if ((_bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y)) <= self.view.center.y) {
                             [sender view].center = CGPointMake([sender view].center.x, (self.view.center.y - self.view.frame.size.height));
                             _bottomController.view.center = CGPointMake(_bottomController.view.center.x, self.view.center.y);
                         } else {
-                            _bottomController.view.center = CGPointMake(_bottomController.view.center.x, _bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
-                            [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO));
+                            _bottomController.view.center = CGPointMake(_bottomController.view.center.x, _bottomController.view.center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
+                            [sender view].center = CGPointMake([sender view].center.x, [sender view].center.y + translatedPoint.y + (((double)velocity.y) * ACCELERATED_SWIPE_RATIO_Y));
                         }
                     }
                 }
