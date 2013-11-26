@@ -11,7 +11,7 @@
 #endif
 
 // Live Views example 1, Non Live Views example 0
-#define LIVE_VIEWS  1
+#define LIVE_VIEWS  0
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>

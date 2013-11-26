@@ -37,18 +37,18 @@
     return self;
 }
 
-#if LIVE_VIEWS
 -(id)initWithNib:(NSString *)nibNameOrNil withName:(NSString *)name andCoordX:(int)xCoord andY:(int)yCoord {
     self = [super initWithNibName:nibNameOrNil bundle:nil];
     if (self) {
         // Custom initialization
+        #if LIVE_VIEWS
         _name = name;
         _xCoord = xCoord;
         _yCoord = yCoord;
+        #endif
     }
     return self;
 }
-#endif
 
 -(void)viewDidLoad {
     [super viewDidLoad];
@@ -75,11 +75,14 @@
     // Do any additional setup after loading the view from its nib.
 }
 
--(void)viewWillAppear:(BOOL)animated {
-    // Example of getting information about where the view controller is located
-    [super viewWillAppear:animated];
-#if !LIVE_VIEWS
+#pragma mark - Panel/View Delegate
+
+// Use in place of viewWillAppear
+-(void)panelWillAppear:(BOOL)animated {
     CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
+    NSLog(@"View %d,%d Will Appear", (int)currentPos.x, (int)currentPos.y);
+    
+#if !LIVE_VIEWS
     _testLabel.text = [NSString stringWithFormat:@"Screen (%d, %d)", ((int)currentPos.x), ((int)currentPos.y)];
     
     if (![[CGFlowController sharedFlow] viewHasLeft:self]) {
@@ -100,9 +103,25 @@
 #endif
 }
 
--(void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
+// Use instead of viewDidAppear
+-(void)panelDidAppear:(BOOL)animated {
+    CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
+    NSLog(@"View %d,%d Did Appear", (int)currentPos.x, (int)currentPos.y);
 }
+
+// Use instead of viewWillDisappear
+-(void)panelWillDisappear:(BOOL)animated {
+    CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
+    NSLog(@"View %d,%d Will Disappear", (int)currentPos.x, (int)currentPos.y);
+}
+
+// Use instead of viewDidDisappear
+-(void)panelDidDisappear:(BOOL)animated {
+    CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
+    NSLog(@"View %d,%d Did Disappear", (int)currentPos.x, (int)currentPos.y);
+}
+
+#pragma mark - Button Methods
 
 -(IBAction)upPressed:(id)sender {
     NSLog(@"Up Pressed");
@@ -123,6 +142,8 @@
     NSLog(@"Right Pressed");
     [[CGFlowController sharedFlow] showRightController];
 }
+
+#pragma mark - Memory Delegate
 
 -(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

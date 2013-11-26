@@ -10,7 +10,14 @@
 #import <UIKit/UIKit.h>
 #import "CGPanelView.h"
 
+@protocol CGFlowControllerDelegate <NSObject>
+@optional
+-(void)startFlowTransition:(BOOL)animated;
+-(void)endFlowTransition:(BOOL)animated;
+@end
+
 @interface CGFlowController : UIViewController <UIGestureRecognizerDelegate>
+@property (nonatomic, weak) id <CGFlowControllerDelegate> delegate;
 @property (nonatomic, assign) BOOL xMovement;
 @property (nonatomic, assign) BOOL yMovement;
 @property (nonatomic, assign) BOOL xWrapAround;

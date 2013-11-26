@@ -10,5 +10,8 @@
 
 @interface CGPanelView : UIViewController
 @property (atomic) BOOL allowAppearenceCalls;
-+(void)viewWillAppear:(BOOL)animated;
+-(void)viewWillAppearCall:(BOOL)animated;
+-(void)viewDidAppearCall:(BOOL)animated;
+-(void)viewWillDisappearCall:(BOOL)animated;
+-(void)viewDidDisappearCall:(BOOL)animated;
 @end
