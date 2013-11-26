@@ -1,9 +1,8 @@
 //
 //  CGFlowViewController.m
-//  ThisOrThat
 //
-//  Created by Charles (Chase) Gorectke on 7/24/13.
-//  Copyright Revision Works 2013
+//  Created by Chase (Charles) Gorectke on 7/24/13.
+//  Copyright (c) 2013 Revision Works, LLC. All rights reserved.
 //  Engineering A Better World
 //
 
@@ -75,6 +74,8 @@
     return sharedFlow;
 }
 
+#pragma mark - Initialization Methods
+
 - (void)setDelegate:(id <CGFlowControllerDelegate>)aDelegate {
     if (delegate != aDelegate) {
         delegate = aDelegate;
@@ -82,6 +83,19 @@
         delegateRespondsTo.endFlow = [delegate respondsToSelector:@selector(endFlowTransition:)];
     }
 }
+
+-(void)setNibIdentifier:(NSString *)ident {
+    _nibIdentifier = ident;
+}
+
+-(void)setStartViewWithCoord:(int)theX andY:(int)theY {
+    if ([self viewExistsAtCoordX:theX andY:theY]) {
+        _xCoordinate = [NSNumber numberWithInt:theX];
+        _yCoordinate = [NSNumber numberWithInt:theY];
+    }
+}
+
+#pragma mark - viewAppearence calls
 
 -(void)viewDidLoad {
     [super viewDidLoad];
@@ -94,8 +108,8 @@
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     if (!self.started) {
+        self.started = true;
         [self determineNewViews:0 and:0];
-        
         _leftController.view.frame = CGRectMake(-self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
         _rightController.view.frame = CGRectMake(self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
         _centerController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -112,11 +126,28 @@
         [self.view bringSubviewToFront:_leftController.view];
         [self.view bringSubviewToFront:_rightController.view];
         [self.view bringSubviewToFront:_centerController.view];
-        self.started = true;
     }
+    
+    [_centerController viewWillAppearCall:animated];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [_centerController viewDidAppearCall:animated];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [_centerController viewWillDisappearCall:animated];
+    [super viewWillDisappear:animated];
+}
+
+-(void)viewDidDisappear:(BOOL)animated {
+    [_centerController viewDidDisappearCall:animated];
+    [super viewDidDisappear:animated];
 }
 
 #pragma mark - Flow Builder Methods
+#warning NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW
 
 -(void)addNonLiveView:(Class)theClass withCoordX:(int)theX andY:(int)theY {
     NSString *newIdentifier = [NSString stringWithFormat:@"%d,%d", theX, theY];
@@ -226,11 +257,38 @@
     }
 }
 
--(CGPoint)getCurrentView {
+-(CGPoint)getCurrentViewPosition {
     return CGPointMake([_xCoordinate floatValue], [_yCoordinate floatValue]);
 }
 
--(CGPoint)getCoordsForLoadedView:(UIViewController *)view {
+-(CGPoint)getCoordsForView:(CGPanelView *)view {
+    NSString *coords = @"";
+    for (NSString *aKey in [_liveCollection allKeys]) {
+        if ([[_liveCollection objectForKey:aKey] isEqual:view]) {
+            NSLog(@"View Exists In Live Collection");
+            coords = aKey;
+            break;
+        }
+    }
+    
+    for (NSString *aKey in [_viewCollection allKeys]) {
+        if ([[_viewCollection objectForKey:aKey] isEqual:view]) {
+            NSLog(@"View Exists In View Collection");
+            coords = aKey;
+            break;
+        }
+    }
+    
+    if ([coords isEqualToString:@""]) {
+        return CGPointZero;
+    }
+    
+//    NSArray *coordComp = [coords ]
+    
+    return CGPointZero;
+}
+
+-(CGPoint)getCoordsForLoadedView:(CGPanelView *)view {
     if ([view isEqual:_leftController]) {
         return CGPointMake([_xCoordinate intValue] - 1, [_yCoordinate intValue]);
     } else if ([view isEqual:_rightController]) {
@@ -244,19 +302,6 @@
     } else {
         return CGPointZero;
     }
-}
-
-#pragma mark - Initialization Methods
-
--(void)setStartViewWithCoord:(int)theX andY:(int)theY {
-    if ([self viewExistsAtCoordX:theX andY:theY]) {
-        _xCoordinate = [NSNumber numberWithInt:theX];
-        _yCoordinate = [NSNumber numberWithInt:theY];
-    }
-}
-
--(void)setNibIdentifier:(NSString *)ident {
-    _nibIdentifier = ident;
 }
 
 #pragma mark - Specific controller helper methods
@@ -395,14 +440,31 @@
     
     if ([self viewExistsAtCoordX:newX andY:newY]) {
         // Set Center
-        [_centerController.view removeFromSuperview];
+        // By setting the center in this manner the Center view isn't reloaded
+        // This allows custom firing of our own panel loading to force viewWillAppear,
+        // viewDidAppear and its disappearing counterparts to fire when we want.
+        UIView *tempView = _centerController.view;
+        if (dirRightLeft != 0) {
+            if (dirRightLeft > 0) {
+                _centerController = _rightController;
+            } else {
+                _centerController = _leftController;
+            }
+        } else if (dirUpDown != 0) {
+            if (dirUpDown > 0) {
+                _centerController = _topController;
+            } else {
+                _centerController = _bottomController;
+            }
+        } else {
+            _centerController = [self getViewAtCoordX:newX andY:newY];
+        }
+        
+        [self.view bringSubviewToFront:_centerController.view];
         [_leftController.view removeFromSuperview];
         [_rightController.view removeFromSuperview];
         [_topController.view removeFromSuperview];
         [_bottomController.view removeFromSuperview];
-        
-        _centerController = [self getViewAtCoordX:newX andY:newY];
-        [self.view bringSubviewToFront:_centerController.view];
         
         _leftController = [self getViewAtCoordX:(newX - 1) andY:newY];
         _rightController = [self getViewAtCoordX:(newX + 1) andY:newY];
@@ -448,6 +510,12 @@
         panGestureRight = nil;
         panGestureTop = nil;
         panGestureBottom = nil;
+        
+        // This fixes a memory leak where the view being overwritten by centercontroller
+        // is never removed from the superview which is a strong reference.
+        if (tempView != nil) {
+            [tempView removeFromSuperview];
+        }
     } else {
         [self movePanelToOriginalPosition:YES];
     }
@@ -459,11 +527,11 @@
     self.showingTopPanel = NO;
     self.showingBottomPanel = NO;
     
-    if (_centerController != nil) {
+    if (_centerController != nil && [_centerController.view superview] == nil) {
         [self.view addSubview:_centerController.view];
         [self.view bringSubviewToFront:_centerController.view];
-        [_centerController setAllowAppearenceCalls:NO];
     }
+    
     if (_leftController != nil) {
         [self.view addSubview:_leftController.view];
         [self.view bringSubviewToFront:_leftController.view];
@@ -499,7 +567,7 @@
 #pragma mark - Non pan gesture movement delegate
 
 -(void)showLeftController {
-    if (_leftController != nil) {
+    if ([self hasLeftController]) {
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -514,7 +582,7 @@
 }
 
 -(void)showRightController {
-    if (_rightController != nil) {
+    if ([self hasRightController]) {
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -529,7 +597,7 @@
 }
 
 -(void)showTopController {
-    if (_topController != nil) {
+    if ([self hasTopController]) {
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -544,7 +612,7 @@
 }
 
 -(void)showBottomController {
-    if (_bottomController != nil) {
+    if ([self hasBottomController]) {
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -607,28 +675,28 @@
             if (_velocityCheck == 1 && _xMovement) {
                 if(velocity.x > 0) {
                     if (!_showingRightPanel) {
-                        [_leftController viewWillAppearCall:YES];
                         [_centerController viewWillDisappearCall:YES];
+                        [_leftController viewWillAppearCall:YES];
                         childView = [self getLeftViewController].view;
                     }
                 } else {
                     if (!_showingLeftPanel) {
-                        [_rightController viewWillAppearCall:YES];
                         [_centerController viewWillDisappearCall:YES];
+                        [_rightController viewWillAppearCall:YES];
                         childView = [self getRightViewController].view;
                     }
                 }
             } else if (_velocityCheck == 2 && _yMovement) {
                 if(velocity.y > 0) {
                     if (!_showingBottomPanel) {
-                        [_topController viewWillAppearCall:YES];
                         [_centerController viewWillDisappearCall:YES];
+                        [_topController viewWillAppearCall:YES];
                         childView = [self getTopViewController].view;
                     }
                 } else {
                     if (!_showingTopPanel) {
-                        [_bottomController viewWillAppearCall:YES];
                         [_centerController viewWillDisappearCall:YES];
+                        [_bottomController viewWillAppearCall:YES];
                         childView = [self getBottomViewController].view;
                     }
                 }

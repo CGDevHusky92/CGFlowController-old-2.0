@@ -1,9 +1,10 @@
 //
 //  TestViewController.m
-//  FlowControllerTest
+//  CGFlowControllerDemo
 //
-//  Created by Chase Gorectke on 9/20/13.
-//  Copyright (c) 2013 Revision Works. All rights reserved.
+//  Created by Chase (Charles) Gorectke on 9/20/13.
+//  Copyright (c) 2013 Revision Works, LLC. All rights reserved.
+//  Engineering A Better World
 //
 
 #import "AppDelegate.h"
@@ -37,18 +38,18 @@
     return self;
 }
 
+#if LIVE_VIEWS
 -(id)initWithNib:(NSString *)nibNameOrNil withName:(NSString *)name andCoordX:(int)xCoord andY:(int)yCoord {
     self = [super initWithNibName:nibNameOrNil bundle:nil];
     if (self) {
         // Custom initialization
-        #if LIVE_VIEWS
         _name = name;
         _xCoord = xCoord;
         _yCoord = yCoord;
-        #endif
     }
     return self;
 }
+#endif
 
 -(void)viewDidLoad {
     [super viewDidLoad];

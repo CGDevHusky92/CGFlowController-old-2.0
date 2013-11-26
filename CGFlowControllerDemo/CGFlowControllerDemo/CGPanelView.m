@@ -1,9 +1,9 @@
 //
 //  CGPanelView.m
-//  FlowControllerTest
 //
-//  Created by Chase Gorectke on 11/22/13.
-//  Copyright (c) 2013 Revision Works. All rights reserved.
+//  Created by Chase (Charles) Gorectke on 11/22/13.
+//  Copyright (c) 2013 Revision Works, LLC. All rights reserved.
+//  Engineering A Better World
 //
 
 #import "CGPanelView.h"
@@ -55,33 +55,33 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     if (_allowAppearenceCalls) {
+        _allowAppearenceCalls = NO;
         [super viewWillAppear:animated];
         [self panelWillAppear:animated];
-        _allowAppearenceCalls = NO;
     }
 }
 
 -(void)viewDidAppear:(BOOL)animated {
     if (_allowAppearenceCalls) {
+        _allowAppearenceCalls = NO;
         [super viewDidAppear:animated];
         [self panelDidAppear:animated];
-        _allowAppearenceCalls = NO;
     }
 }
 
 -(void)viewWillDisappear:(BOOL)animated {
     if (_allowAppearenceCalls) {
+        _allowAppearenceCalls = NO;
         [self panelWillDisappear:animated];
         [super viewWillDisappear:animated];
-        _allowAppearenceCalls = NO;
     }
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
     if (_allowAppearenceCalls) {
+        _allowAppearenceCalls = NO;
         [self panelDidDisappear:animated];
         [super viewDidDisappear:animated];
-        _allowAppearenceCalls = NO;
     }
 }
 
