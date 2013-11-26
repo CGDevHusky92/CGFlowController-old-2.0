@@ -150,7 +150,7 @@
                 } completion:^(BOOL finished){
                     if (finished) {
                         [self.parentViewController viewWillAppear:NO];
-                        [self.centerController viewWillAppear:NO];
+                        [self.centerController viewWillAppearCall:NO];
                     }
                 }];
             }
@@ -303,7 +303,7 @@
 
 #pragma mark - Panel movement code
 
--(void)movePanelToOriginalPosition {
+-(void)movePanelToOriginalPosition:(BOOL)animated {
 	[UIView animateWithDuration:SLIDE_TIMING delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
         _centerController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
         _leftController.view.frame = CGRectMake(-self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
@@ -312,59 +312,75 @@
         _bottomController.view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
     } completion:^(BOOL finished) {
         if (finished) {
-            [self resetMainView:YES];
+            [self resetMainView:animated];
         }
     }];
 }
 
--(void)movePanelLeft {
+-(void)movePanelLeft:(BOOL)animated {
     if (_xMovement) {
         [UIView animateWithDuration:SLIDE_TIMING delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
             _leftController.view.frame = CGRectMake(-self.view.frame.size.width * 2, 0, self.view.frame.size.width, self.view.frame.size.height);
             _centerController.view.frame = CGRectMake(-self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
             _rightController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
         } completion:^(BOOL finished) {
-            [self determineNewViews:1 and:0];
-            [self resetMainView:YES];
+            if (finished) {
+                [_rightController viewDidAppearCall:animated];
+                [_centerController viewDidDisappearCall:animated];
+                [self determineNewViews:1 and:0];
+                [self resetMainView:animated];
+            }
         }];
     }
 }
 
--(void)movePanelRight {
+-(void)movePanelRight:(BOOL)animated {
     if (_xMovement) {
         [UIView animateWithDuration:SLIDE_TIMING delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
             _leftController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
             _centerController.view.frame = CGRectMake(self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
             _rightController.view.frame = CGRectMake(self.view.frame.size.width * 2, 0, self.view.frame.size.width, self.view.frame.size.height);
         } completion:^(BOOL finished) {
-            [self determineNewViews:-1 and:0];
-            [self resetMainView:YES];
+            if (finished) {
+                [_leftController viewDidAppearCall:animated];
+                [_centerController viewDidDisappearCall:animated];
+                [self determineNewViews:-1 and:0];
+                [self resetMainView:YES];
+            }
         }];
     }
 }
 
--(void)movePanelUp {
+-(void)movePanelUp:(BOOL)animated {
     if (_yMovement) {
         [UIView animateWithDuration:SLIDE_TIMING delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
             _centerController.view.frame = CGRectMake(0, -self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
             _topController.view.frame = CGRectMake(0, -self.view.frame.size.height * 2, self.view.frame.size.width, self.view.frame.size.height);
             _bottomController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
         } completion:^(BOOL finished) {
-            [self determineNewViews:0 and:-1];
-            [self resetMainView:YES];
+            if (finished) {
+                [_bottomController viewDidAppearCall:animated];
+                [_centerController viewDidDisappearCall:animated];
+                [self determineNewViews:0 and:-1];
+                [self resetMainView:YES];
+            }
         }];
     }
 }
 
--(void)movePanelDown {
+-(void)movePanelDown:(BOOL)animated {
     if (_yMovement) {
         [UIView animateWithDuration:SLIDE_TIMING delay:0 options:UIViewAnimationOptionBeginFromCurrentState animations:^{
             _centerController.view.frame = CGRectMake(0, self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
             _topController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
             _bottomController.view.frame = CGRectMake(0, self.view.frame.size.height * 2, self.view.frame.size.width, self.view.frame.size.height);
         } completion:^(BOOL finished) {
-            [self determineNewViews:0 and:1];
-            [self resetMainView:YES];
+            if (finished) {
+                [_topController viewDidAppearCall:animated];
+                [_centerController viewDidDisappearCall:animated];
+                [self determineNewViews:0 and:1];
+                [self resetMainView:YES];
+            }
         }];
     }
 }
@@ -379,7 +395,6 @@
     
     if ([self viewExistsAtCoordX:newX andY:newY]) {
         // Set Center
-        [_centerController setAllowAppearenceCalls:YES];
         [_centerController.view removeFromSuperview];
         [_leftController.view removeFromSuperview];
         [_rightController.view removeFromSuperview];
@@ -393,17 +408,6 @@
         _rightController = [self getViewAtCoordX:(newX + 1) andY:newY];
         _topController = [self getViewAtCoordX:newX andY:(newY + 1)];
         _bottomController = [self getViewAtCoordX:newX andY:(newY - 1)];
-        
-        //        [_centerController setAllowAppearenceCalls:NO];
-        //        if (dirRightLeft < 0) {
-        //            [_rightController setAllowAppearenceCalls:YES];
-        //        } else if (dirRightLeft > 0) {
-        //            [_leftController setAllowAppearenceCalls:YES];
-        //        } else if (dirUpDown > 0) {
-        //            [_bottomController setAllowAppearenceCalls:YES];
-        //        } else if (dirUpDown < 0) {
-        //            [_topController setAllowAppearenceCalls:YES];
-        //        }
         
         _xCoordinate = [NSNumber numberWithInt:newX];
         _yCoordinate = [NSNumber numberWithInt:newY];
@@ -445,7 +449,7 @@
         panGestureTop = nil;
         panGestureBottom = nil;
     } else {
-        [self movePanelToOriginalPosition];
+        [self movePanelToOriginalPosition:YES];
     }
 }
 
@@ -484,8 +488,10 @@
         _rightController.view.frame = CGRectMake(self.view.frame.size.width, 0, self.view.frame.size.width, self.view.frame.size.height);
         _topController.view.frame = CGRectMake(0, -self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
     } completion:^(BOOL finished) {
-        if (delegateRespondsTo.endFlow) {
-            [delegate endFlowTransition:animated];
+        if (finished) {
+            if (delegateRespondsTo.endFlow) {
+                [delegate endFlowTransition:animated];
+            }
         }
     }];
 }
@@ -501,9 +507,7 @@
         _yMovement = NO;
         [_centerController viewWillDisappearCall:YES];
         [_leftController viewWillAppearCall:YES];
-        [self movePanelRight];
-        [_rightController viewDidDisappearCall:YES];
-        [_centerController viewDidAppearCall:YES];
+        [self movePanelRight:YES];
         _xMovement = xCheck;
         _yMovement = yCheck;
     }
@@ -518,9 +522,7 @@
         _yMovement = NO;
         [_centerController viewWillDisappearCall:YES];
         [_rightController viewWillAppearCall:YES];
-        [self movePanelLeft];
-        [_leftController viewDidDisappearCall:YES];
-        [_centerController viewDidAppearCall:YES];
+        [self movePanelLeft:YES];
         _xMovement = xCheck;
         _yMovement = yCheck;
     }
@@ -535,9 +537,7 @@
         _xMovement = NO;
         [_centerController viewWillDisappearCall:YES];
         [_topController viewWillAppearCall:YES];
-        [self movePanelDown];
-        [_bottomController viewDidDisappearCall:YES];
-        [_centerController viewDidAppearCall:YES];
+        [self movePanelDown:YES];
         _xMovement = xCheck;
         _yMovement = yCheck;
     }
@@ -552,9 +552,7 @@
         _xMovement = NO;
         [_centerController viewWillDisappearCall:YES];
         [_bottomController viewWillAppearCall:YES];
-        [self movePanelUp];
-        [_topController viewDidDisappearCall:YES];
-        [_centerController viewDidAppearCall:YES];
+        [self movePanelUp:YES];
         _xMovement = xCheck;
         _yMovement = yCheck;
     }
@@ -570,22 +568,22 @@
     if (_forceFinish) {
         if (_velocityCheck == 1 && _xMovement) {
             if (!_showPanelX) {
-                [self movePanelToOriginalPosition];
+                [self movePanelToOriginalPosition:YES];
             } else {
                 if (_showingLeftPanel) {
-                    [self movePanelRight];
+                    [self movePanelRight:YES];
                 }  else if (_showingRightPanel) {
-                    [self movePanelLeft];
+                    [self movePanelLeft:YES];
                 }
             }
         } else if (_velocityCheck == 2 && _yMovement) {
             if (!_showPanelY) {
-                [self movePanelToOriginalPosition];
+                [self movePanelToOriginalPosition:YES];
             } else {
                 if (_showingBottomPanel) {
-                    [self movePanelUp];
+                    [self movePanelUp:YES];
                 }  else if (_showingTopPanel) {
-                    [self movePanelDown];
+                    [self movePanelDown:YES];
                 }
             }
         }
@@ -609,7 +607,6 @@
             if (_velocityCheck == 1 && _xMovement) {
                 if(velocity.x > 0) {
                     if (!_showingRightPanel) {
-#warning viewWillAppear and viewWillDisappear
                         [_leftController viewWillAppearCall:YES];
                         [_centerController viewWillDisappearCall:YES];
                         childView = [self getLeftViewController].view;
@@ -624,14 +621,14 @@
             } else if (_velocityCheck == 2 && _yMovement) {
                 if(velocity.y > 0) {
                     if (!_showingBottomPanel) {
-                        //                        [_topController viewWillAppearCall:YES];
-                        //                        [_centerController viewWillDisappearCall:YES];
+                        [_topController viewWillAppearCall:YES];
+                        [_centerController viewWillDisappearCall:YES];
                         childView = [self getTopViewController].view;
                     }
                 } else {
                     if (!_showingTopPanel) {
-                        //                        [_bottomController viewWillAppearCall:YES];
-                        //                        [_centerController viewWillDisappearCall:YES];
+                        [_bottomController viewWillAppearCall:YES];
+                        [_centerController viewWillDisappearCall:YES];
                         childView = [self getBottomViewController].view;
                     }
                 }
@@ -646,23 +643,22 @@
         if([(UIPanGestureRecognizer*)sender state] == UIGestureRecognizerStateEnded) {
             if (_velocityCheck == 1 && _xMovement) {
                 if (!_showPanelX) {
-                    [self movePanelToOriginalPosition];
+                    [self movePanelToOriginalPosition:YES];
                 } else {
                     if (_showingLeftPanel) {
-#warning viewDidDisappear and viewDidAppear
-                        [self movePanelRight];
+                        [self movePanelRight:YES];
                     }  else if (_showingRightPanel) {
-                        [self movePanelLeft];
+                        [self movePanelLeft:YES];
                     }
                 }
             } else if (_velocityCheck == 2 && _yMovement) {
                 if (!_showPanelY) {
-                    [self movePanelToOriginalPosition];
+                    [self movePanelToOriginalPosition:YES];
                 } else {
                     if (_showingBottomPanel) {
-                        [self movePanelUp];
+                        [self movePanelUp:YES];
                     }  else if (_showingTopPanel) {
-                        [self movePanelDown];
+                        [self movePanelDown:YES];
                     }
                 }
             }

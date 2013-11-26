@@ -11,7 +11,7 @@
 #import "CGFlowController.h"
 #import "TestViewController.h"
 
-@interface MainViewController ()
+@interface MainViewController() <CGFlowControllerDelegate>
 
 @end
 
@@ -41,6 +41,7 @@
     [[CGFlowController sharedFlow] addLiveView:testControllerRight withCoordX:1 andY:0];
     [[CGFlowController sharedFlow] addLiveView:testControllerTop withCoordX:0 andY:1];
     [[CGFlowController sharedFlow] addLiveView:testControllerBottom withCoordX:0 andY:-1];
+    [[CGFlowController sharedFlow] setDelegate:self];
     testControllerCenter = nil;
     testControllerLeft = nil;
     testControllerRight = nil;
@@ -49,6 +50,7 @@
 #else
     // Non Live Example
     // Just passing the class that will be instantiated in the controller as it transitions to that view
+    [[CGFlowController sharedFlow] setDelegate:self];
     [[CGFlowController sharedFlow] setNibIdentifier:identifier];
     [[CGFlowController sharedFlow] addNonLiveView:[TestViewController class] withCoordX:0 andY:0];
     [[CGFlowController sharedFlow] addNonLiveView:[TestViewController class] withCoordX:-1 andY:0];
@@ -61,6 +63,22 @@
     [self addChildViewController:[CGFlowController sharedFlow]];
     [self.view bringSubviewToFront:[CGFlowController sharedFlow].view];
 }
+
+#pragma mark - CGFlowDelegate Methods
+
+// These methods are optional, but are shown for proof of concept and can also be turned on and off
+// in the prefix
+#if TRANSITION_METHODS
+-(void)startFlowTransition:(BOOL)animated {
+    NSLog("Starting Transition");
+}
+
+-(void)endFlowTransition:(BOOL)animated {
+    NSLog("Ending Transition");
+}
+#endif
+
+#pragma mark - Memory Delegate
 
 -(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

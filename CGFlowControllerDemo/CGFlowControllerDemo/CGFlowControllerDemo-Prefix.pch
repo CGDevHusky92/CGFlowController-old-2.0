@@ -11,7 +11,10 @@
 #endif
 
 // Live Views example 1, Non Live Views example 0
-#define LIVE_VIEWS  0
+#define LIVE_VIEWS          0
+
+// Delegate transition methods in MainViewController
+#define TRANSITION_METHODS  0
 
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
