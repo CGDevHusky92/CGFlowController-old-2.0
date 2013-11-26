@@ -26,6 +26,11 @@
 @property (atomic) int yCoord;
 #endif
 
+-(IBAction)upPressed:(id)sender;
+-(IBAction)downPressed:(id)sender;
+-(IBAction)leftPressed:(id)sender;
+-(IBAction)rightPressed:(id)sender;
+
 @end
 
 @implementation TestViewController
@@ -73,6 +78,7 @@
         [_bottomButton setHidden:YES];
     }
 #endif
+    
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -80,9 +86,9 @@
 
 // Use in place of viewWillAppear
 -(void)panelWillAppear:(BOOL)animated {
+#if defined(DEBUG_VIEW_TRANSITION) || !LIVE_VIEWS
     CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
-    NSLog(@"View %d,%d Will Appear", (int)currentPos.x, (int)currentPos.y);
-    
+#endif
 #if !LIVE_VIEWS
     _testLabel.text = [NSString stringWithFormat:@"Screen (%d, %d)", ((int)currentPos.x), ((int)currentPos.y)];
     
@@ -102,24 +108,41 @@
         [_bottomButton setHidden:YES];
     }
 #endif
+#ifdef DEBUG_VIEW_TRANSITION
+    NSLog(@"View %d,%d Will Appear", (int)currentPos.x, (int)currentPos.y);
+#endif
+    
+    // Add code here for viewWillAppear method
 }
 
 // Use instead of viewDidAppear
 -(void)panelDidAppear:(BOOL)animated {
+#ifdef DEBUG_VIEW_TRANSITION
     CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
     NSLog(@"View %d,%d Did Appear", (int)currentPos.x, (int)currentPos.y);
+#endif
+    
+    // Add code here for viewDidAppear method
 }
 
 // Use instead of viewWillDisappear
 -(void)panelWillDisappear:(BOOL)animated {
+#ifdef DEBUG_VIEW_TRANSITION
     CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
     NSLog(@"View %d,%d Will Disappear", (int)currentPos.x, (int)currentPos.y);
+#endif
+    
+    // Add code here for viewWillDisappear method
 }
 
 // Use instead of viewDidDisappear
 -(void)panelDidDisappear:(BOOL)animated {
+#ifdef DEBUG_VIEW_TRANSITION
     CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
     NSLog(@"View %d,%d Did Disappear", (int)currentPos.x, (int)currentPos.y);
+#endif
+    
+    // Add code here for viewDidDisappear method
 }
 
 #pragma mark - Button Methods

@@ -19,6 +19,10 @@
 // Delegate transition methods in MainViewController
 #define TRANSITION_METHODS  0
 
+// Used to debug view transitions by printing out when ever a specific view was fired
+// by a view transition. Uncomment to have print outs in viewWillAppear, DidAppear, etc.
+//#define DEBUG_VIEW_TRANSITION
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>

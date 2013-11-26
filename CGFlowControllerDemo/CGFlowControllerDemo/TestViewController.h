@@ -18,9 +18,4 @@
 -(id)initWithNib:(NSString *)nibNameOrNil withName:(NSString *)name andCoordX:(int)xCoord andY:(int)yCoord;
 #endif
 
--(IBAction)upPressed:(id)sender;
--(IBAction)downPressed:(id)sender;
--(IBAction)leftPressed:(id)sender;
--(IBAction)rightPressed:(id)sender;
-
 @end
