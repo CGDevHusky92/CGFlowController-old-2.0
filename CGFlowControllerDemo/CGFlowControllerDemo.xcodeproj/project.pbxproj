@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1ED903185FC936004932BF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1ED902185FC936004932BF /* Main_iPhone.storyboard */; };
 		2E2AD2D91843BF9D00ED4091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2AD2D81843BF9D00ED4091 /* Foundation.framework */; };
 		2E2AD2DB1843BF9D00ED4091 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2AD2DA1843BF9D00ED4091 /* CoreGraphics.framework */; };
 		2E2AD2DD1843BF9D00ED4091 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2AD2DC1843BF9D00ED4091 /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E1ED902185FC936004932BF /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		2E2AD2D51843BF9D00ED4091 /* CGFlowControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGFlowControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2AD2D81843BF9D00ED4091 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2E2AD2DA1843BF9D00ED4091 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -204,6 +206,7 @@
 				2E2AD3221843C04900ED4091 /* TestViewController.m */,
 				2E2AD3231843C04900ED4091 /* TestViewController_iPhone.xib */,
 				2E2AD3241843C04900ED4091 /* TestViewController_iPad.xib */,
+				2E1ED902185FC936004932BF /* Main_iPhone.storyboard */,
 			);
 			name = TestView;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				2E2AD3151843C00700ED4091 /* MainWindow_iPhone.xib in Resources */,
 				2E2AD2F41843BF9D00ED4091 /* Images.xcassets in Resources */,
 				2E2AD3161843C00700ED4091 /* MainWindow_iPad.xib in Resources */,
+				2E1ED903185FC936004932BF /* Main_iPhone.storyboard in Resources */,
 				2E2AD2E31843BF9D00ED4091 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +520,7 @@
 				2E2AD30C1843BF9D00ED4091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2AD30D1843BF9D00ED4091 /* Build configuration list for PBXNativeTarget "CGFlowControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				2E2AD30F1843BF9D00ED4091 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

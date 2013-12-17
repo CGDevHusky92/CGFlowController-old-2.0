@@ -8,11 +8,15 @@
 //
 
 #import "AppDelegate.h"
+
+#ifndef STORYBOARD
 #import "MainViewController.h"
+#endif
 
 @implementation AppDelegate
 
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+#ifndef STORYBOARD
     self.viewController = [[MainViewController alloc] init];
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     
@@ -20,7 +24,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    
+#endif
     // Override point for customization after application launch.
     return YES;
 }

@@ -3,26 +3,27 @@ v6
 r1
 cCheck dependencies
 cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist
-cProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64
-cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
-cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
-cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
-cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
-cCopyStringsFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings
-cCompileAssetCatalog /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
-cProcessInfoPlistFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
-cGenerateDSYMFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
-cProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
-cTouch /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
-cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
-cCodeSign /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+cProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64
+cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
+cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
+cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
+cCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
+cCompileStoryboard /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard
+cCopyStringsFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
+cProcessInfoPlistFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
+cGenerateDSYMFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
+cProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
+cTouch /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
+cCodeSign /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
 c0000000052448D650000000000000110
@@ -264,436 +265,501 @@ c000000005244948C0000000000005004
 t1380226188
 s20484
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
-c000000005295187E00000000000001C3
-t1385502846
-s451
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+c0000000052AFCBBB000000000000022C
+t1387252667
+s556
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
-c000000005295187E00000000000009AC
-t1385502846
-s2476
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
+c0000000052AFCBBB00000000000009DC
+t1387252667
+s2524
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
-c000000005295187E00000000000006F6
-t1385502846
-s1782
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+c0000000052B0BA7B00000000000009E5
+t1387313787
+s2533
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
-c0000000052951D3D000000000000A1F1
-t1385504061
-s41457
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
+c0000000052B0C506000000000000B62B
+t1387316486
+s46635
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
-c00000000529388A0000000000000051D
-t1385400480
-s1309
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
+c0000000052B0C337000000000000051E
+t1387316023
+s1310
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
-c0000000052951F4B000000000000031D
-t1385504587
-s797
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
+c0000000052B0C5140000000000000331
+t1387316500
+s817
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
-c0000000052951DFC00000000000001D3
-t1385504252
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
+c0000000052AF6A9E00000000000001D3
+t1387227806
 s467
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
-c000000005295187E0000000000000AC0
-t1385502846
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
+c0000000052AF6A9E0000000000000AC0
+t1387227806
 s2752
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
 c000000005293881D0000000000000088
 t1385400349
 s136
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.h
-c000000005295187E000000000000011F
-t1385502846
-s287
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.h
+c0000000052AFD86E0000000000000120
+t1387255918
+s288
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
-c000000005295187E0000000000000FAD
-t1385502846
-s4013
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
+c0000000052B07A1D000000000000125A
+t1387297309
+s4698
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
-c00000000523CB35D00000000000007FF
-t1379709789
-s2047
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
+c0000000052B0BB8E00000000000005E8
+t1387314062
+s1512
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
-c00000000523D426200000000000007B7
-t1379746402
-s1975
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
+c0000000052B0BB8F00000000000005E1
+t1387314063
+s1505
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
-c0000000052951DFC00000000000001D6
-t1385504252
-s470
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard
+c0000000052B07B93000000000000987E
+t1387297683
+s39038
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
-c0000000052951EEA0000000000001346
-t1385504490
-s4934
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
+c0000000052AFDA1A0000000000000227
+t1387256346
+s551
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
-c00000000528FA9AA00000000000019A4
-t1385146794
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
+c0000000052B0CAA40000000000001618
+t1387317924
+s5656
+
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
+c0000000052AF6A9E00000000000019A4
+t1387227806
 s6564
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
-c0000000052950EAD0000000000001853
-t1385500333
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
+c0000000052AF6A9E0000000000001853
+t1387227806
 s6227
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/en.lproj/InfoPlist.strings
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/en.lproj/InfoPlist.strings
 c000000005293881D000000000000002D
 t1385400349
 s45
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m
 c000000005295187E0000000000000193
 t1385502846
 s403
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
-t1385496630
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
+t1387316028
 s450
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o
-t1385504587
-s74032
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o
+t1387316501
+s69364
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o
-t1385504587
-s221996
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o
+t1387316501
+s214300
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList
-c0000000052950031000000000000044A
-t1385496625
-s1098
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList
+c0000000052AFDBB3000000000000048C
+t1387256755
+s1164
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o
-t1385504587
-s53556
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o
+t1387316501
+s53604
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o
-t1385504587
-s50544
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o
+t1387316501
+s49316
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o
-t1385504587
-s66224
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o
+t1387317924
+s63288
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o
-t1385504587
-s4376
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o
+t1387316500
+s4408
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_dependencies.txt
-t1385496629
-s469
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_dependencies.txt
+t1387256758
+s502
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist
-t1385496629
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist
+t1387256758
 s525
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
-t1385504587
-s510
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+t1387317924
+s544
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM
-t1385504490
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM
+t1387317884
 s102
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
-t1385504587
-s159168
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
+t1387317924
+s158672
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist
-t1385496630
-s1398
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist
+t1387316028
+s1399
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPad.nib
-t1385496629
-s1158
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPad.nib
+t1387314063
+s784
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPhone.nib
-t1385496629
-s1239
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPhone.nib
+t1387314063
+s865
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/PkgInfo
-t1385496630
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Main_iPhone.storyboardc
+t1387297684
+s476
+
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/PkgInfo
+t1387316028
 s8
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist
-t1385496625
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist
+t1387256755
 s150
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPad.nib
-t1385496630
-s4317
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPad.nib
+t1387256757
+s4322
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPhone.nib
-t1385500334
-s2942
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPhone.nib
+t1387256757
+s2935
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
-t1385496630
-s8050
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
+t1387256759
+s8230
 
-N/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings
-t1385496629
+N/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings
+t1387256757
 s42
 
-N/Users/nbvikingsidiot001/Library/MobileDevice/Provisioning Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision
-c000000005250B41D0000000000001F72
-t1381020701
-s8050
+N/Users/nbvikingsidiot001/Library/MobileDevice/Provisioning Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision
+c00000000529A99660000000000002026
+t1385863526
+s8230
 
-N/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch
-t1385504587
-s110036
+N/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch
+t1387316500
+s111224
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
+N/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch
+t1387315989
+s111224
+
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
 r0
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
 r0
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
 r0
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
 r0
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
 r0
 
-CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m
+CBuild AST from /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesae1096cb5645b841^9a9896cb5645b841^---0#1#1#--18"Check dependencies36"30DCE27D-9287-4A26-8B4E-4388234C4B15-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies143d74240261b841^718e76240261b841^---0#1#1#--18"Check dependencies36"8EEAF3E0-B015-4D5E-83C6-2C7029A6FC9C-
 
-CCodeSign /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
-s407197387.993295
-e407197391.304678
+CCodeSign /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+s409010724.580845
+e409010727.698106
 r1
 xCodeSign
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.app54"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.app3257fecb5645b841^4b004ecf5645b841^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/0000000000000000^1164"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.app    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Charles Gorectke (Y9B4849LK9)" and provisioning profile "iOS Team Provisioning Profile: *" (F2AF7B2A-3F1F-4D17-970D-8CCDE9311633)    codesign --force --sign CE58A89D54C20F9756013E55B25F8D052DC6781C --resource-rules=/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist --entitlements /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app36"9598A55D-6C30-443A-AFEA-BDC44753C9B7-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.app54"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.appb9c194240261b841^aab7b2270261b841^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/0000000000000000^1208"CodeSign build/Debug-iphoneos/CGFlowControllerDemo.app    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Charles Gorectke (Y9B4849LK9)" and provisioning profile "iOS Team Provisioning Profile: *" (0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0)    codesign --force --sign CE58A89D54C20F9756013E55B25F8D052DC6781C --resource-rules=/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist --entitlements /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app36"39983B06-E6EB-4781-B8E7-9CD74D248B09-
+b73A54DA1-E74E-42C4-A08C-ABCB4201AD1A
 
-CCompileAssetCatalog /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
-s407189429.181478
-e407189429.712925
+CCompileAssetCatalog /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
+s408949557.835600
+e408949558.372598
 r1
 xCompileAssetCatalog
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets
 o/* com.apple.actool.compilation-results */
-o/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/LaunchImage-700-568h@2x.png
-o/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Assets.car
-o/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist
+o/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/LaunchImage-700-568h@2x.png
+o/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Assets.car
+o/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassets102"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassets22892eb53745b841^9582b6b53745b841^-497"/* com.apple.actool.compilation-results *//Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/LaunchImage-700-568h@2x.png/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Assets.car/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@115"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets/0000000000000000^1290"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassets    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets36"EF8CD87B-867A-4C97-B763-AEE5EFB35BD7-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassets102"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassetsb326d6351360b841^4e635f361360b841^-530"/* com.apple.actool.compilation-results *//Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/LaunchImage-700-568h@2x.png/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Assets.car/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@126"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets/0000000000000000^1345"CompileAssetCatalog build/Debug-iphoneos/CGFlowControllerDemo.app CGFlowControllerDemo/Images.xcassets    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Images.xcassets36"691C4636-C6EE-4248-BB85-9D6094103BBB-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.625451
-e407197387.734785
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009300.898425
+e409009301.042108
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m222"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9736a0cb5645b841^ab26bccb5645b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m0000000000000000^4141"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o36"70B18116-D6FE-459C-83CC-7F6F876863DB-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m222"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler321de694fc60b841^4be40a95fc60b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m0000000000000000^4284"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o CGFlowControllerDemo/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o36"FC084E83-D155-4A8F-867E-D77082E787F0-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.665992
-e407197387.938132
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009300.944026
+e409009301.228609
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
-o/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m:151:2: warning: NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW [-W#warnings]
-o#warning NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW
-o ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m232"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilera699aacb5645b841^e528f0cb5645b841^-320"/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m:151:2: warning: NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW [-W#warnings]#warning NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@72"NEEDS BETTER VIEW ADDING MAPPING AND DETECTION FOR BAD ADDITIONS TO FLOW-407197387#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@117"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m0000000000000000^150#1#150#1#5792#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@117"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m0000000000000000^4171"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o36"D09F6F45-2F20-4137-BA6C-F3105510F896-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m232"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler86c8f194fc60b841^6a883a95fc60b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m0000000000000000^4314"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o CGFlowControllerDemo/CGFlowController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o36"1178AF5C-62B5-43BD-812E-C70DD9F354C5-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.728713
-e407197387.801966
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009301.015929
+e409009301.098649
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m222"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler87a8bacb5645b841^1363cdcb5645b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m0000000000000000^4141"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o36"EEBA06D9-95E3-494E-BBCC-860F28CC4A15-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m222"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler57770495fc60b841^42411995fc60b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m0000000000000000^4284"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o CGFlowControllerDemo/CGPanelView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o36"B6BE0E7A-AACD-4367-AB18-806B21B61F4A-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.625633
-e407197387.728415
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009300.898601
+e409009301.014609
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m236"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler904fa0cb5645b841^db4fbacb5645b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m0000000000000000^4183"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o36"080D33AE-7B0F-4B8A-A734-D984CF1F3CBB-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m236"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0e2de694fc60b841^e2c80395fc60b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m0000000000000000^4326"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o CGFlowControllerDemo/MainViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o36"96048EF2-F397-4539-B4FB-C35C4E5548E3-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.625259
-e407197387.739646
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409010724.455769
+e409010724.523140
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m236"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler3d28a0cb5645b841^f759bdcb5645b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m0000000000000000^4183"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o36"F30E21AF-CEC0-4681-BD10-0188DB0755B4-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m236"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerfbcd74240261b841^41ef85240261b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m0000000000000000^4326"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o CGFlowControllerDemo/TestViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o36"11019C8F-F0D0-4F3B-9E57-2B21AAB246EA-
+b73A54DA1-E74E-42C4-A08C-ABCB4201AD1A
 
-CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.626339
-e407197387.665702
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009300.899254
+e409009300.943575
 r1
 xCompileC
 xbuild/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m208"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerc66da0cb5645b841^d178aacb5645b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m0000000000000000^4099"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o36"AAB2D88B-F5DF-4AE0-AB0A-7EDF89C1FC05-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m208"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1172e694fc60b841^9b91f194fc60b841^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m0000000000000000^4242"CompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o CGFlowControllerDemo/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -include /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch -MMD -MT dependencies -MF /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.dia -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o36"9107F8FE-B310-4AA2-B6A5-36741647F6F6-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
-s407189427.536247
-e407189429.576761
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/main.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/AppDelegate.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/CGFlowController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/CGPanelView.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/MainViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/TestViewController.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/main.o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileStoryboard /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard
+s408990483.398504
+e408990484.557094
+r1
+xCompileStoryboard
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"CompileStoryboard CGFlowControllerDemo/Main_iPhone.storyboard61"CompileStoryboard CGFlowControllerDemo/Main_iPhone.storyboard3c176613b360b841^cfbe8e14b360b841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard0000000000000000^927"CompileStoryboard CGFlowControllerDemo/Main_iPhone.storyboard    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Main_iPhone.storyboardc /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/Main_iPhone.storyboard36"150A6AFA-7ADF-4D0B-BE9E-491CD4D80FD3-
+bD8E3337E-B184-4AE3-9323-E92284F91187
+
+CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
+s409006863.077435
+e409006863.949670
 r1
 xCompileXIB
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib51"CompileXIB CGFlowControllerDemo/MainWindow_iPad.xib096d89b33745b841^22a793b53745b841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib0000000000000000^827"CompileXIB CGFlowControllerDemo/MainWindow_iPad.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPad.nib /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib36"B6EA5183-5068-45C4-967F-74817432E1C3-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib51"CompileXIB CGFlowControllerDemo/MainWindow_iPad.xib04e4130ff360b841^be13f30ff360b841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib0000000000000000^860"CompileXIB CGFlowControllerDemo/MainWindow_iPad.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPad.nib /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPad.xib36"4DAB0B3E-D268-40D2-9D8C-9C1882B43C63-
+bABC4F912-460D-4B09-B090-2CFEBCC5D236
 
-CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
-s407189427.536882
-e407189429.178735
+CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
+s409006863.076656
+e409006863.952237
 r1
 xCompileXIB
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib53"CompileXIB CGFlowControllerDemo/MainWindow_iPhone.xib848389b33745b841^09c22db53745b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib0000000000000000^833"CompileXIB CGFlowControllerDemo/MainWindow_iPhone.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPhone.nib /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib36"AB9D70D9-BBDD-46DB-A857-BBE439CDEE00-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib53"CompileXIB CGFlowControllerDemo/MainWindow_iPhone.xibf9bf130ff360b841^dbc2f30ff360b841^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib0000000000000000^866"CompileXIB CGFlowControllerDemo/MainWindow_iPhone.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/MainWindow_iPhone.nib /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/MainWindow_iPhone.xib36"55FBFEFC-A28A-4181-BA0B-7EDA3D052BE9-
+bABC4F912-460D-4B09-B090-2CFEBCC5D236
 
-CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
-s407189427.535537
-e407189430.053191
+CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
+s408949556.072427
+e408949557.950500
 r1
 xCompileXIB
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib59"CompileXIB CGFlowControllerDemo/TestViewController_iPad.xibcb4889b33745b841^b1a30db63745b841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib0000000000000000^851"CompileXIB CGFlowControllerDemo/TestViewController_iPad.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPad.nib /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib36"166F82EC-A144-4B8C-8B45-042272C7E5C2-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib59"CompileXIB CGFlowControllerDemo/TestViewController_iPad.xibfda012341360b841^7176f3351360b841^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib0000000000000000^884"CompileXIB CGFlowControllerDemo/TestViewController_iPad.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPad.nib /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPad.xib36"BC319A5E-E47E-49DC-B36B-7046E532BC21-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
-CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
-s407193133.996295
-e407193134.961462
+CCompileXIB /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
+s408949556.072599
+e408949557.833754
 r1
 xCompileXIB
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib61"CompileXIB CGFlowControllerDemo/TestViewController_iPhone.xib6c22ff2d4645b841^c422f62e4645b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib0000000000000000^857"CompileXIB CGFlowControllerDemo/TestViewController_iPhone.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPhone.nib /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib36"E5FE8BC4-6AC0-4EF2-A12A-65EE1BB73ABC-
-bA97E28D4-7BD8-4C1C-89F4-142DF0A3ECD2
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compiling /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib61"CompileXIB CGFlowControllerDemo/TestViewController_iPhone.xiba8ac12341360b841^4ca7d5351360b841^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib0000000000000000^890"CompileXIB CGFlowControllerDemo/TestViewController_iPhone.xib    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/TestViewController_iPhone.nib /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/TestViewController_iPhone.xib36"C1FA7284-5B84-4950-A1F9-E0041BDC5550-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
-CCopyStringsFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings
-s407189429.178921
-e407189429.181245
+CCopyStringsFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings
+s408949557.833942
+e408949557.835491
 r1
 xCopyStringsFile
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings
 xCGFlowControllerDemo/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy CGFlowControllerDemo/en.lproj/InfoPlist.strings136"CopyStringsFile build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings09e12db53745b841^99662eb53745b841^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/en.lproj/InfoPlist.strings0000000000000000^670"CopyStringsFile build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj -- CGFlowControllerDemo/en.lproj/InfoPlist.strings36"04D28710-4903-4629-A891-54E48A0200D7-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy CGFlowControllerDemo/en.lproj/InfoPlist.strings136"CopyStringsFile build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings328ed5351360b841^9a09d6351360b841^---0#0#1#-19%DVTDocumentLocation2@136"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/en.lproj/InfoPlist.strings0000000000000000^692"CopyStringsFile build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj/InfoPlist.strings CGFlowControllerDemo/en.lproj/InfoPlist.strings    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/en.lproj -- CGFlowControllerDemo/en.lproj/InfoPlist.strings36"2F97E29E-2C52-4278-AC8D-B3B244C11161-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
 CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist
-s407189425.835608
-e407189425.837981
+s408949555.685495
+e408949555.686417
 r1
 xCpResource
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
 xbuild/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist198"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist7425d6b13745b841^3fa9d6b13745b841^---0#0#1#-19%DVTDocumentLocation2@143"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist0034a0c4dfffdf42^816"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app36"378B15F5-89F8-4BE8-A3D4-9CA9414A7105-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist198"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist508daf331360b841^a81bb0331360b841^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist0034bc91dcffdf42^838"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app36"D4F9D36F-9BF1-4CCD-A444-1FFEDE90213E-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
-CGenerateDSYMFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
-s407197387.972660
-e407197387.992451
+CCreateUniversalBinary /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal armv7\ armv7s\ arm64
+r0
+
+CGenerateDSYMFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
+s409010724.556611
+e409010724.579984
 r1
 xGenerateDSYMFile
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Generate /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM134"GenerateDSYMFile build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo4a0df9cb5645b841^d00cfecb5645b841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM/0000000000000000^764"GenerateDSYMFile build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM36"62B9A703-F60D-4013-BCCC-B753D9DFA786-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Generate /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM134"GenerateDSYMFile build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo438d8e240261b841^1c7994240261b841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM/0000000000000000^797"GenerateDSYMFile build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app.dSYM36"4AAF3719-66B0-485E-9866-EBC7864B9CD2-
+b73A54DA1-E74E-42C4-A08C-ABCB4201AD1A
 
-CLd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64
-s407197387.939603
-e407197387.970528
+CLd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo normal arm64
+r0
+
+CLd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7/CGFlowControllerDemo normal armv7
+r0
+
+CLd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/armv7s/CGFlowControllerDemo normal armv7s
+r0
+
+CLd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64
+s409010724.524241
+e409010724.553976
 r1
 xLd
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo
 xnormal
 xarm64
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/TestViewController.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/AppDelegate.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/MainViewController.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/main.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowController.o
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGPanelView.o
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
@@ -708,7 +774,6 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
@@ -736,57 +801,100 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Link /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo82"Ld build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm645e9cf0cb5645b841^b77cf8cb5645b841^---0#0#1#--1528"Ld build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos -filelist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo_dependency_info.dat -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo36"A8FE8F9A-C5D6-471D-B3E1-47BD1D418FB8-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection153"Link /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo82"Ld build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm644a4286240261b841^8dd28d240261b841^---0#0#1#--1594"Ld build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo normal arm64    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos -filelist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/Objects-normal/arm64/CGFlowControllerDemo_dependency_info.dat -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/CGFlowControllerDemo36"0AB7AC82-6408-475E-B46B-6912A784C462-
+b73A54DA1-E74E-42C4-A08C-ABCB4201AD1A
 
-CProcessInfoPlistFile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
-s407189430.053674
-e407189430.055989
+CProcessInfoPlistFile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
+s409008828.858756
+e409008828.860875
 r1
 xProcessInfoPlistFile
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Process /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist130"ProcessInfoPlistFile build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist CGFlowControllerDemo/CGFlowControllerDemo-Info.plistabcb0db63745b841^d2550eb63745b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist0000000000000000^1232"ProcessInfoPlistFile build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist CGFlowControllerDemo/CGFlowControllerDemo-Info.plist    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist -genpkginfo /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist -additionalcontentfile /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist36"027866A3-1B58-4160-AD8D-6AC5AEF32867-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Process /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist130"ProcessInfoPlistFile build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist CGFlowControllerDemo/CGFlowControllerDemo-Info.plist25e8dbbcfa60b841^c362dcbcfa60b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist0000000000000000^1298"ProcessInfoPlistFile build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist CGFlowControllerDemo/CGFlowControllerDemo-Info.plist    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Info.plist -genpkginfo /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/ResourceRules.plist -additionalcontentfile /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/assetcatalog_generated_info.plist -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/Info.plist36"F0358938-750A-41C0-9B2D-BB1052C429EF-
+b264ACFB9-900D-4B42-AD36-71BE2DAAB701
 
-CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-hjrjwqfwcldusmabvwgbhtkiwovr/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-eqtgqucvpiykhvgvpkvleqonyifs_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-devymrekjcrxnndleuutiovhfpnz_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s407197387.587330
-e407197387.624627
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-dpoizmscjdcegkfqksrwbevqlfhc_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-egwlwlyaqfxjnaftkxeuzlbyqomv_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-ffypybvfqdokrqevnlnqtqfsdjti_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-fognafwerybpmucqkkaidasmvnrh_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/CGFlowControllerDemo-amvsqxigundudaarghfpewznoyzv/Index/PrecompiledHeaders/CGFlowControllerDemo-Prefix-fpilkwoqdsckqjcrlveghdhugbyg_ast/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-adblcpiwlouhcdeeqnlcqsnietom/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409009300.865488
+e409009300.897694
 r1
 xProcessPCH
-x/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch
+x/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch
 xCGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
 xnormal
 xarm64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precompile CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch344"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7a7196cb5645b841^5ce79fcb5645b841^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch0000000000000000^4160"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos --serialize-diagnostics /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.d -c /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch -o /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bqoegluumrrmkjfjhiasgykkishc/CGFlowControllerDemo-Prefix.pch.pch36"C2D97939-4F65-4941-8E55-D24D934F9CBA-
-b1A4CEF50-D751-4A5A-BC61-C930BF088278
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precompile CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch344"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf0a4dd94fc60b841^ffcfe594fc60b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch0000000000000000^4270"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos --serialize-diagnostics /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.d -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch -o /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bjnfyybqbhlkvfhezupfvruoxodf/CGFlowControllerDemo-Prefix.pch.pch36"65037238-2EB6-46B2-961C-E1D6464A9967-
+bFFAAC3B4-224E-4AEE-A05A-4555E22CE82A
 
-CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
-s407189430.079400
-e407189430.081847
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-bnzmodiplhwuxndnqdxbyqizermu/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-ffqfgrvvyncdxkejhkgjhzievyzo/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s409008789.591707
+e409008789.626063
+r1
+xProcessPCH
+x/var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch
+xCGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Precompile CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch344"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler889f9795fa60b841^a646a095fa60b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch0000000000000000^4270"ProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/nbvikingsidiot001/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-generated-files.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-own-target-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-all-target-headers.hmap -iquote /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo-project-headers.hmap -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources/arm64 -I/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/DerivedSources -F/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos --serialize-diagnostics /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.d -c /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch -o /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-foqfwcnhtmwirxfdjurwlhzziiyn/CGFlowControllerDemo-Prefix.pch.pch36"E42CCF31-DC72-4FAD-82A9-0834AC85D5CB-
+bBF4D39BB-BD25-4272-8F07-58B2ED587D7E
+
+CProcessPCH /var/folders/3m/0g6xsb392xsgg7cvwpf46x5w0000gn/C/com.apple.DeveloperTools/5.0.1-5A2034a/Xcode/SharedPrecompiledHeaders/CGFlowControllerDemo-Prefix-fzhxitkakhggjghcnabavauxujdb/CGFlowControllerDemo-Prefix.pch.pch CGFlowControllerDemo/CGFlowControllerDemo-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
+s409008828.880724
+e409008828.881587
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection246"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent246"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent745d14b63745b841^d8f414b63745b841^---0#0#1#-19%DVTDocumentLocation2@179"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent0034a0c4dfffdf42^872"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent36"51D83761-9ADE-4704-84B9-EA432315F82C-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection246"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent246"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcentfd82e1bcfa60b841^47b0e1bcfa60b841^---0#0#1#-19%DVTDocumentLocation2@190"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent0000000000000000^894"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/CGFlowControllerDemo.build/Debug-iphoneos/CGFlowControllerDemo.build/CGFlowControllerDemo.xcent36"BBC8D416-BC98-40FA-A446-8BE95544EF15-
+b264ACFB9-900D-4B42-AD36-71BE2DAAB701
 
-CProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
-s407189430.076431
-e407189430.078743
+CProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
+s408949559.006240
+e408949559.007611
 r1
 xProcessProductPackaging
-x/Users/nbvikingsidiot001/Library/MobileDevice/Provisioning Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision
-x/Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection216"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision216"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision669f13b63745b841^282914b63745b841^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision0034a0c4dfffdf42^786"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision    cd /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/F2AF7B2A-3F1F-4D17-970D-8CCDE9311633.mobileprovision -o /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision36"01308671-29D9-4299-A73B-1EF21FC0854C-
-b9B9B3CA2-D73C-42C6-ADA8-1BAE8A98BE1C
+x/Users/nbvikingsidiot001/Library/MobileDevice/Provisioning Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision
+x/Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection216"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision216"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision27a401371360b841^52f301371360b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision0034bc91dcffdf42^808"ProcessProductPackaging /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision    cd /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/nbvikingsidiot001/Library/MobileDevice/Provisioning\ Profiles/0F277CD3-60F8-41B6-ADC7-E10BEBC4D9C0.mobileprovision -o /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app/embedded.mobileprovision36"2E90E1DF-56FC-4355-8011-136B8E7CC7B6-
+bC13A2973-F3FF-4EC1-8413-8F0392C42EA2
 
-CTouch /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
+CTouch /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/build/Debug-iphoneos/CGFlowControllerDemo.app
 r0
 

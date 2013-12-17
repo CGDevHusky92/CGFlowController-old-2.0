@@ -35,6 +35,7 @@
 
 @implementation TestViewController
 
+#ifndef STORYBOARD
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -54,6 +55,7 @@
     }
     return self;
 }
+#endif
 #endif
 
 -(void)viewDidLoad {
@@ -79,11 +81,33 @@
     }
 #endif
     
+#ifdef STORYBOARD
+    CGPoint currentPos = [[CGFlowController sharedFlow] getCoordsForLoadedView:self];
+    _testLabel.text = [NSString stringWithFormat:@"Screen (%d, %d)", ((int)currentPos.x), ((int)currentPos.y)];
+    
+    if (![[CGFlowController sharedFlow] viewHasLeft:self]) {
+        [_leftButton setHidden:YES];
+    }
+    
+    if (![[CGFlowController sharedFlow] viewHasRight:self]) {
+        [_rightButton setHidden:YES];
+    }
+    
+    if (![[CGFlowController sharedFlow] viewHasTop:self]) {
+        [_topButton setHidden:YES];
+    }
+    
+    if (![[CGFlowController sharedFlow] viewHasBottom:self]) {
+        [_bottomButton setHidden:YES];
+    }
+#endif
+    
     // Do any additional setup after loading the view from its nib.
 }
 
 #pragma mark - Panel/View Delegate
 
+#ifndef STORYBOARD
 // Use in place of viewWillAppear
 -(void)panelWillAppear:(BOOL)animated {
 #if defined(DEBUG_VIEW_TRANSITION) || !LIVE_VIEWS
@@ -111,7 +135,6 @@
 #ifdef DEBUG_VIEW_TRANSITION
     NSLog(@"View %d,%d Will Appear", (int)currentPos.x, (int)currentPos.y);
 #endif
-    
     // Add code here for viewWillAppear method
 }
 
@@ -144,6 +167,9 @@
     
     // Add code here for viewDidDisappear method
 }
+#else
+
+#endif
 
 #pragma mark - Button Methods
 

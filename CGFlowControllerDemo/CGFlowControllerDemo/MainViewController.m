@@ -21,6 +21,9 @@
 -(void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    // Example of creating test controllers with nonlive views vs live views
+#ifndef STORYBOARD
     NSString *identifier;
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         identifier = @"_iPad";
@@ -28,7 +31,6 @@
         identifier = @"_iPhone";
     }
     
-    // Example of creating test controllers with nonlive views vs live views
 #if LIVE_VIEWS
     // Live Example
     // Passes the pointer reference to the actual instantiated view controller in memory
@@ -58,6 +60,16 @@
     [[CGFlowController sharedFlow] addNonLiveView:[TestViewController class] withCoordX:1 andY:0];
     [[CGFlowController sharedFlow] addNonLiveView:[TestViewController class] withCoordX:0 andY:1];
     [[CGFlowController sharedFlow] addNonLiveView:[TestViewController class] withCoordX:0 andY:-1];
+#endif
+#else
+    [[CGFlowController sharedFlow] setDelegate:self];
+    [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"CenterTestPanel" withCoordX:0 andY:0];
+    [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"LeftTestPanel" withCoordX:-1 andY:0];
+    [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"RightTestPanel" withCoordX:1 andY:0];
+    [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"TopTestPanel" withCoordX:0 andY:1];
+    [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"BottomTestPanel" withCoordX:0 andY:-1];
+    
+//    [self.view addGestureRecognizer:[[CGFlowController sharedFlow] panGestureRecognizer]];
 #endif
     
     [self.view addSubview:[CGFlowController sharedFlow].view];

@@ -26,33 +26,58 @@
 
 +(CGFlowController *)sharedFlow;
 -(void)setDelegate:(id<CGFlowControllerDelegate>)delegate;
--(void)setNibIdentifier:(NSString *)ident;
 
+#ifndef STORYBOARD
+-(void)setNibIdentifier:(NSString *)ident;
+#endif
+
+#ifdef STORYBOARD
+-(void)addStoryBoardIdentifier:(NSString *)ident withCoordX:(int)theX andY:(int)theY;
+#else
 -(void)addNonLiveView:(Class)theClass withCoordX:(int)theX andY:(int)theY;
--(void)addLiveView:(CGPanelView *)view withCoordX:(int)theX andY:(int)theY;
+-(void)addLiveView:(UIViewController *)view withCoordX:(int)theX andY:(int)theY;
+#endif
 
 -(void)moveCustomPathToX:(int)theX andY:(int)theY;
--(NSString *)whichViewAmI:(CGPanelView *)view;
+-(NSString *)whichViewAmI:(UIViewController *)view;
 -(CGPoint)getCurrentViewPosition;
--(CGPoint)getCoordsForLoadedView:(CGPanelView *)view;
+-(CGPoint)getCoordsForLoadedView:(UIViewController *)view;
 
--(BOOL)viewHasLeft:(CGPanelView *)view;
--(BOOL)viewHasRight:(CGPanelView *)view;
--(BOOL)viewHasTop:(CGPanelView *)view;
--(BOOL)viewHasBottom:(CGPanelView *)view;
+-(BOOL)viewHasLeft:(UIViewController *)view;
+-(BOOL)viewHasRight:(UIViewController *)view;
+-(BOOL)viewHasTop:(UIViewController *)view;
+-(BOOL)viewHasBottom:(UIViewController *)view;
 
 -(BOOL)hasLeftController;
 -(BOOL)hasRightController;
 -(BOOL)hasTopController;
 -(BOOL)hasBottomController;
 
--(CGPanelView *)getLeftViewController;
--(CGPanelView *)getRightViewController;
--(CGPanelView *)getTopViewController;
--(CGPanelView *)getBottomViewController;
+-(UIViewController *)getLeftViewController;
+-(UIViewController *)getRightViewController;
+-(UIViewController *)getTopViewController;
+-(UIViewController *)getBottomViewController;
+
+#ifdef STORYBOARD
+-(UIPanGestureRecognizer*)panGestureRecognizer;
+#endif
 
 -(void)showLeftController;
 -(void)showRightController;
 -(void)showTopController;
 -(void)showBottomController;
+
+@end
+
+#pragma mark - UIViewController(CGFlowController) Category
+
+// We add a category of UIViewController to let childViewControllers easily access their parent CGFlowController
+@interface UIViewController(CGFlowController)
+-(CGFlowController *)flowController;
+@end
+
+#pragma mark - CGFlowControllerSegue
+
+@interface CGFlowControllerSegue : UIStoryboardSegue
+@property (strong) void(^performBlock)(CGFlowControllerSegue * segue, UIViewController* svc, UIViewController* dvc );
 @end

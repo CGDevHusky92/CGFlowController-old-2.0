@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zhzxgbfAj1IyAvqxsc5c9TecSHI=
+		7oLkataIkRIDsESB6taJPk+3I/w=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -14,11 +14,55 @@
 		</data>
 		<key>MainWindow_iPad.nib</key>
 		<data>
-		UUgri2ZRSvE3unc/8WM9SZ9Vqsw=
+		wrHO26M4ZQM1PYgr4zgYv9nxxco=
 		</data>
 		<key>MainWindow_iPhone.nib</key>
 		<data>
-		8lL1OzpfzL3xWxE+gjpDkA4wVAg=
+		hMDB+gspM291EFTFTBLH3AOSJbM=
+		</data>
+		<key>Main_iPhone.storyboardc/BottomTestPanel.nib</key>
+		<data>
+		sGmj+L6ierksL0oBAviNNigBqkY=
+		</data>
+		<key>Main_iPhone.storyboardc/CenterTestPanel.nib</key>
+		<data>
+		Q2t8wpCG8SDVNCKSq6Ceqof8QzQ=
+		</data>
+		<key>Main_iPhone.storyboardc/DaD-kg-cJo-view-kOT-g0-tyo.nib</key>
+		<data>
+		orNcQ8N3mGgtF/k7iT3anEej7s4=
+		</data>
+		<key>Main_iPhone.storyboardc/LeftTestPanel.nib</key>
+		<data>
+		fMU3H4Zy/U4ddLClE9+kYN789gI=
+		</data>
+		<key>Main_iPhone.storyboardc/RightTestPanel.nib</key>
+		<data>
+		9/PNRzZ0flqX57aVcr0+yh1jT4I=
+		</data>
+		<key>Main_iPhone.storyboardc/TopTestPanel.nib</key>
+		<data>
+		B8HrV7T6M+xIpO/Y57/8uCqv5Gg=
+		</data>
+		<key>Main_iPhone.storyboardc/UIViewController-GZP-jb-WJA.nib</key>
+		<data>
+		BUz1pTKM62/1+YOb4OZuiwfhzTQ=
+		</data>
+		<key>Main_iPhone.storyboardc/Yth-Zy-UKE-view-W90-4R-zTS.nib</key>
+		<data>
+		Y+Q15bn/p68496LMPE/w185/WpQ=
+		</data>
+		<key>Main_iPhone.storyboardc/eFm-LP-XWf-view-TqU-iM-8Hz.nib</key>
+		<data>
+		2JYGN0nQme4BMNNMS6MeXByT8UY=
+		</data>
+		<key>Main_iPhone.storyboardc/egF-d3-UgG-view-IeU-j0-9vN.nib</key>
+		<data>
+		fE9CimFjgcWkiBm75H5L0DjTMr4=
+		</data>
+		<key>Main_iPhone.storyboardc/hCp-FK-cxn-view-z92-vk-sGR.nib</key>
+		<data>
+		7gLc8ozRyLONj2nVJGgHNseMB2E=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -26,15 +70,15 @@
 		</data>
 		<key>TestViewController_iPad.nib</key>
 		<data>
-		NjshFcBSTTBEJCusodJ193aB8Ts=
+		mwSHBKiFRXItCAhOS0GtUvXexAM=
 		</data>
 		<key>TestViewController_iPhone.nib</key>
 		<data>
-		BWxOX6IW+/hmPp/E96bKcR2UB4k=
+		5LQfOsXrZqmE6gXZ4fKuIiKK6a4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		rj6m9XODRq4EtTze+RkOeQClDxY=
+		i9iHTxBVmpqqe6l6SJw+z8aHzns=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
@@ -45,7 +89,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zhzxgbfAj1IyAvqxsc5c9TecSHI=
+		7oLkataIkRIDsESB6taJPk+3I/w=
 		</data>
 		<key>LaunchImage-700-568h@2x.png</key>
 		<data>
@@ -53,11 +97,55 @@
 		</data>
 		<key>MainWindow_iPad.nib</key>
 		<data>
-		UUgri2ZRSvE3unc/8WM9SZ9Vqsw=
+		wrHO26M4ZQM1PYgr4zgYv9nxxco=
 		</data>
 		<key>MainWindow_iPhone.nib</key>
 		<data>
-		8lL1OzpfzL3xWxE+gjpDkA4wVAg=
+		hMDB+gspM291EFTFTBLH3AOSJbM=
+		</data>
+		<key>Main_iPhone.storyboardc/BottomTestPanel.nib</key>
+		<data>
+		sGmj+L6ierksL0oBAviNNigBqkY=
+		</data>
+		<key>Main_iPhone.storyboardc/CenterTestPanel.nib</key>
+		<data>
+		Q2t8wpCG8SDVNCKSq6Ceqof8QzQ=
+		</data>
+		<key>Main_iPhone.storyboardc/DaD-kg-cJo-view-kOT-g0-tyo.nib</key>
+		<data>
+		orNcQ8N3mGgtF/k7iT3anEej7s4=
+		</data>
+		<key>Main_iPhone.storyboardc/LeftTestPanel.nib</key>
+		<data>
+		fMU3H4Zy/U4ddLClE9+kYN789gI=
+		</data>
+		<key>Main_iPhone.storyboardc/RightTestPanel.nib</key>
+		<data>
+		9/PNRzZ0flqX57aVcr0+yh1jT4I=
+		</data>
+		<key>Main_iPhone.storyboardc/TopTestPanel.nib</key>
+		<data>
+		B8HrV7T6M+xIpO/Y57/8uCqv5Gg=
+		</data>
+		<key>Main_iPhone.storyboardc/UIViewController-GZP-jb-WJA.nib</key>
+		<data>
+		BUz1pTKM62/1+YOb4OZuiwfhzTQ=
+		</data>
+		<key>Main_iPhone.storyboardc/Yth-Zy-UKE-view-W90-4R-zTS.nib</key>
+		<data>
+		Y+Q15bn/p68496LMPE/w185/WpQ=
+		</data>
+		<key>Main_iPhone.storyboardc/eFm-LP-XWf-view-TqU-iM-8Hz.nib</key>
+		<data>
+		2JYGN0nQme4BMNNMS6MeXByT8UY=
+		</data>
+		<key>Main_iPhone.storyboardc/egF-d3-UgG-view-IeU-j0-9vN.nib</key>
+		<data>
+		fE9CimFjgcWkiBm75H5L0DjTMr4=
+		</data>
+		<key>Main_iPhone.storyboardc/hCp-FK-cxn-view-z92-vk-sGR.nib</key>
+		<data>
+		7gLc8ozRyLONj2nVJGgHNseMB2E=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -65,15 +153,15 @@
 		</data>
 		<key>TestViewController_iPad.nib</key>
 		<data>
-		NjshFcBSTTBEJCusodJ193aB8Ts=
+		mwSHBKiFRXItCAhOS0GtUvXexAM=
 		</data>
 		<key>TestViewController_iPhone.nib</key>
 		<data>
-		BWxOX6IW+/hmPp/E96bKcR2UB4k=
+		5LQfOsXrZqmE6gXZ4fKuIiKK6a4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		rj6m9XODRq4EtTze+RkOeQClDxY=
+		i9iHTxBVmpqqe6l6SJw+z8aHzns=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>

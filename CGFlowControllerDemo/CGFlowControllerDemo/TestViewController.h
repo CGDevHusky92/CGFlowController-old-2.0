@@ -12,7 +12,11 @@
 
 //@class CGFlowViewController;
 
+#ifndef STORYBOARD
 @interface TestViewController : CGPanelView
+#else
+@interface TestViewController : UIViewController
+#endif
 
 #if LIVE_VIEWS
 -(id)initWithNib:(NSString *)nibNameOrNil withName:(NSString *)name andCoordX:(int)xCoord andY:(int)yCoord;
