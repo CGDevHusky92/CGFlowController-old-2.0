@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3745"/>
     </dependencies>
     <scenes>
-        <!--Flow Controller-->
+        <!--Main View Controller-->
         <scene sceneID="PhY-Ab-uLr">
             <objects>
-                <viewController id="GZP-jb-WJA" customClass="CGFlowController" sceneMemberID="viewController"/>
+                <viewController id="GZP-jb-WJA" customClass="MainViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lg0-sk-1kA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="369" y="176"/>
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnh-fK-mJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="868" y="176"/>
+            <point key="canvasLocation" x="780" y="176"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="7rF-ia-uub">
@@ -250,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Anh-8b-V1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="176"/>
+            <point key="canvasLocation" x="1184" y="176"/>
         </scene>
         <!--Test View Controller-->
         <scene sceneID="8fA-xg-d6I">
@@ -410,7 +410,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7H-bv-5WY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-281" y="176"/>
+            <point key="canvasLocation" x="-97" y="176"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

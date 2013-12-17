@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m \
-  /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h \
-  /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h
+  /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.m \
+  /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGPanelView.h \
+  /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/CGFlowController.h

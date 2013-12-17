@@ -1,5 +1,6 @@
-CGFlowController v2.0.0 By Charles Gorectke
-===========================================
+CGFlowController v2.0.0 
+  By Charles Gorectke
+=======================
 
 An easy to use Pan gesture controller that you can use to attach and pan multiple views in both the X and Y direction.
 As of version 2.0.0 I have added StoryBoard support and have shown how to use it in the Demo. Storyboard support comes

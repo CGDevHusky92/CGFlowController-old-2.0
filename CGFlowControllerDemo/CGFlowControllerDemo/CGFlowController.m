@@ -22,6 +22,7 @@
 @property (nonatomic, strong) UIViewController *topController;
 @property (nonatomic, strong) UIViewController *bottomController;
 @property (nonatomic, strong) NSMutableDictionary *identifierCollection;
+@property (nonatomic, strong) NSString *storyName;
 #else
 @property (nonatomic, strong) CGPanelView *centerController;
 @property (nonatomic, strong) CGPanelView *leftController;
@@ -63,10 +64,14 @@
 @synthesize yWrapAround=_yWrapAround;
 @synthesize forceFinish=_forceFinish;
 
+#ifdef INIT_CODER
 static dispatch_once_t onceToken;
 static CGFlowController *sharedFlow = nil;
+#endif
 
 +(CGFlowController *)sharedFlow {
+    static dispatch_once_t onceToken;
+    static CGFlowController *sharedFlow = nil;
     dispatch_once(&onceToken, ^{
         sharedFlow = [[CGFlowController alloc] init];
     });
@@ -74,7 +79,6 @@ static CGFlowController *sharedFlow = nil;
     return sharedFlow;
 }
 
-#ifndef STORYBOARD
 -(id)init {
     self = [super init];
     if (self) {
@@ -93,7 +97,9 @@ static CGFlowController *sharedFlow = nil;
     }
     return self;
 }
-#else
+
+/* Used if you instantiate without MainViewController and add CGFlow directly to StoryBoard */
+#ifdef INIT_CODER
 -(id)initWithCoder:(NSCoder *)aDecoder {
     self = [super initWithCoder:aDecoder];
     if (self) {
@@ -132,6 +138,12 @@ static CGFlowController *sharedFlow = nil;
 -(void)setNibIdentifier:(NSString *)ident {
     _nibIdentifier = ident;
 }
+
+#else
+
+-(void)setStoryBoardName:(NSString *)name {
+    _storyName = name;
+}
 #endif
 
 -(void)setStartViewWithCoord:(int)theX andY:(int)theY {
@@ -146,7 +158,7 @@ static CGFlowController *sharedFlow = nil;
 -(void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-#ifdef STORYBOARD
+#ifdef INIT_CODER
     [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"CenterTestPanel" withCoordX:0 andY:0];
     [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"LeftTestPanel" withCoordX:-1 andY:0];
     [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"RightTestPanel" withCoordX:1 andY:0];
@@ -283,7 +295,10 @@ static CGFlowController *sharedFlow = nil;
         
         return classController;
 #else
-        return [[UIStoryboard storyboardWithName:@"Main_iPhone" bundle:nil] instantiateViewControllerWithIdentifier:[_identifierCollection valueForKey:newIdentifier]];
+        if (_storyName == nil || [_storyName isEqualToString:@""]) {
+            NSAssert(NO, @"Please set a storyboard name that CGFlowController can access.");
+        }
+        return [[UIStoryboard storyboardWithName:_storyName bundle:nil] instantiateViewControllerWithIdentifier:[_identifierCollection valueForKey:newIdentifier]];
 #endif
     }
     return nil;
@@ -698,6 +713,10 @@ static CGFlowController *sharedFlow = nil;
 
 -(void)showLeftController {
     if ([self hasLeftController]) {
+        if (delegateRespondsTo.startFlow) {
+            [delegate startFlowTransition:YES];
+        }
+        
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -718,6 +737,10 @@ static CGFlowController *sharedFlow = nil;
 
 -(void)showRightController {
     if ([self hasRightController]) {
+        if (delegateRespondsTo.startFlow) {
+            [delegate startFlowTransition:YES];
+        }
+        
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -738,6 +761,10 @@ static CGFlowController *sharedFlow = nil;
 
 -(void)showTopController {
     if ([self hasTopController]) {
+        if (delegateRespondsTo.startFlow) {
+            [delegate startFlowTransition:YES];
+        }
+        
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         
@@ -758,6 +785,10 @@ static CGFlowController *sharedFlow = nil;
 
 -(void)showBottomController {
     if ([self hasBottomController]) {
+        if (delegateRespondsTo.startFlow) {
+            [delegate startFlowTransition:YES];
+        }
+        
         BOOL xCheck = _xMovement;
         BOOL yCheck = _yMovement;
         

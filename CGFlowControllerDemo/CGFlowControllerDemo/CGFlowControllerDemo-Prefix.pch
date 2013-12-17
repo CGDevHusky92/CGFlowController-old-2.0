@@ -17,7 +17,7 @@
 #define LIVE_VIEWS          0
 
 // Delegate transition methods in MainViewController
-#define TRANSITION_METHODS  0
+#define TRANSITION_METHODS  1
 
 #define STORYBOARD
 

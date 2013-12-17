@@ -69,7 +69,11 @@
     [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"TopTestPanel" withCoordX:0 andY:1];
     [[CGFlowController sharedFlow] addStoryBoardIdentifier:@"BottomTestPanel" withCoordX:0 andY:-1];
     
-//    [self.view addGestureRecognizer:[[CGFlowController sharedFlow] panGestureRecognizer]];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+        [[CGFlowController sharedFlow] setStoryBoardName:@"Main_iPhone"];
+    } else {
+        [[CGFlowController sharedFlow] setStoryBoardName:@"Main_iPad"];
+    }
 #endif
     
     [self.view addSubview:[CGFlowController sharedFlow].view];
@@ -83,11 +87,11 @@
 // in the prefix
 #if TRANSITION_METHODS
 -(void)startFlowTransition:(BOOL)animated {
-    NSLog("Starting Transition");
+    NSLog(@"Starting Transition");
 }
 
 -(void)endFlowTransition:(BOOL)animated {
-    NSLog("Ending Transition");
+    NSLog(@"Ending Transition");
 }
 #endif
 

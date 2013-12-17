@@ -32,6 +32,7 @@
 #endif
 
 #ifdef STORYBOARD
+-(void)setStoryBoardName:(NSString *)name;
 -(void)addStoryBoardIdentifier:(NSString *)ident withCoordX:(int)theX andY:(int)theY;
 #else
 -(void)addNonLiveView:(Class)theClass withCoordX:(int)theX andY:(int)theY;

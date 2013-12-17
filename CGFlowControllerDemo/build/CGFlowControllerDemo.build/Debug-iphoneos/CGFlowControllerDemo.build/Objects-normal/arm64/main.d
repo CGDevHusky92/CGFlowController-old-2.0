@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/main.m \
-  /Users/nbvikingsidiot001/Desktop/CGFlowControllerwStoryBoard/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
+  /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/main.m \
+  /Users/nbvikingsidiot001/Desktop/CGFlowController/CGFlowControllerDemo/CGFlowControllerDemo/AppDelegate.h
