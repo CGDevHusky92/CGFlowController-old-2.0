@@ -1,13 +1,19 @@
-CGFlowController By Charles Gorectke
-====================================
+CGFlowController v2.0.0 By Charles Gorectke
+===========================================
 
 An easy to use Pan gesture controller that you can use to attach and pan multiple views in both the X and Y direction.
+As of version 2.0.0 I have added StoryBoard support and have shown how to use it in the Demo. Storyboard support comes
+as the default setting. I will slowly be dropping support for the previous nib support and continue moving on with a more
+robust library that can be plugged into StoryBoards.
+
 
 I wanted a simple customizable view set up to easily transition different views. So I decided to start to build my own.
 This was all prior to storyboards. So this needs a lot of updating. I wanted a way to add views that needed to stay live
 in memory and not be deallocated. While still having the ability to lazy load any view I wanted. I need a better mapping
 technique for the entire layout. It also needs to be tested for ridiculous layouts that span like crazy. Also I believe
 wrap around was broken when updating for a specific project and needs to be looked at.
+
+
 
 
 Features:
@@ -21,10 +27,9 @@ Allows live and none live views for easier memory management.
 
 Things to add/check:
 ====================
-Storyboard support
 Better delegate support
-Larger more customizable code base for live, non-live views
-Check for memory leaks
+Better view handling with StoryBoards.
+Check view loading and unloading based on display.
 
 
 Known Issues:
